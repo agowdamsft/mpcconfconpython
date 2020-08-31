@@ -1,0 +1,41 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file that goes with our server code
+  version: "1.0.0"
+  title: Swagger ReST Article
+consumes:
+  - application/json
+produces:
+  - application/json
+
+basePath: /api
+
+# Paths supported by the server application
+paths:
+  /simvalue:
+   
+    post:
+      operationId: people.create
+      tags:
+        - People
+      summary: Post a Value for the run
+      description: Runs the mathemetaical validations and returns a number
+      parameters:
+        - name: simvalue
+          in: body
+          description: Person to create
+          required: True
+          schema:
+            type: object
+            properties:
+              runid:
+                type: string
+                description: Simulation Run ID
+              invalue:
+                type: integer
+                description: Math Integer Value
+      responses:
+        201:
+          description: Successfully run the validations
+
+ 
