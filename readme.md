@@ -21,3 +21,14 @@ Does the basic math to add +100 to the input
 
 > Returns
 > 223
+
+### Module 2
+Generates a random number back based on the range value sent via body
+> curl POST -http://0.0.0.0:4996/domath/<runid> {"value":100}
+
+> Returns
+{
+    "executedonon": "Wed, 02 Sep 2020 00:34:58 GMT",
+    "retvalue": "17",
+    "runid": "123testrun"
+}
