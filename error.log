@@ -1,0 +1,278 @@
+INFO:werkzeug: * Running on http://0.0.0.0:4996/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 09:57:15] "[33mPOST /api/simvalue HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 09:57:35] "[33mPOST /api/simvalue HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /domath/123 [POST]
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:/Projects/ACC/mpcconfconpython/module2/app.py", line 24, in post
+    logging.ad
+AttributeError: module 'logging' has no attribute 'ad'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 09:58:16] "[35m[1mPOST /domath/123 HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /domath/123 [POST]
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:/Projects/ACC/mpcconfconpython/module2/app.py", line 24, in post
+    logging.ad
+AttributeError: module 'logging' has no attribute 'ad'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 09:58:51] "[35m[1mPOST /domath/123 HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /domath/123 [POST]
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:/Projects/ACC/mpcconfconpython/module2/app.py", line 24, in post
+    logging.ad
+AttributeError: module 'logging' has no attribute 'ad'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 09:59:00] "[35m[1mPOST /domath/123 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 09:59:35] "[33mPOST /api/simvalue HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 10:01:30] "[33mPOST /api/domath HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:4996/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 10:22:38] "[33mPOST /api/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 10:23:11] "[33mPOST /api/domath/1 HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /domath/1 [POST]
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:/Projects/ACC/mpcconfconpython/module2/app.py", line 26, in post
+    retarray = np.random.randint(body["value"], size=1)
+KeyError: 'value'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 10:24:40] "[35m[1mPOST /domath/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 10:25:34] "[33mPOST / HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /domath/123 [POST]
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:/Projects/ACC/mpcconfconpython/module2/app.py", line 26, in post
+    retarray = np.random.randint(body["value"], size=1)
+KeyError: 'value'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 10:25:44] "[35m[1mPOST /domath/123 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 10:26:32] "[33mGET /domath/123 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:4996/ (Press CTRL+C to quit)
+ERROR:app:Exception on /domath/123 [POST]
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:/Projects/ACC/mpcconfconpython/module2/app.py", line 26, in post
+    retarray = np.random.randint(body["value"], size=1)
+KeyError: 'value'
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 10:28:33] "[35m[1mPOST /domath/123 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 10:29:29] "[35m[1mPOST /domath/123 HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+TypeError: 'Response' object is not iterable
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 10:29:53] "[35m[1mPOST /domath/123 HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+TypeError: 'Response' object is not iterable
+INFO:werkzeug: * Running on http://0.0.0.0:4996/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 10:31:27] "[35m[1mPOST /domath/123 HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+TypeError: 'Response' object is not iterable
+INFO:werkzeug: * Running on http://0.0.0.0:4996/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 10:32:10] "[35m[1mPOST /domath/123 HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+TypeError: 'Response' object is not iterable
+INFO:werkzeug: * Running on http://0.0.0.0:4996/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:4996/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 10:38:16] "[37mPOST /domath/123 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 11:21:09] "[37mPOST /domath/123 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:4996/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 11:22:40] "[35m[1mPOST /domath/123 HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+TypeError: 'Response' object is not iterable
+INFO:werkzeug: * Running on http://0.0.0.0:4996/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 11:23:27] "[35m[1mPOST /domath/123 HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+TypeError: 'Response' object is not iterable
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 11:24:04] "[35m[1mPOST /domath/123 HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+TypeError: 'Response' object is not iterable
+INFO:werkzeug: * Running on http://0.0.0.0:4996/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 11:25:07] "[35m[1mPOST /domath/123 HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "C:\Users\amgowda\Miniconda3\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+TypeError: 'Response' object is not iterable
+INFO:werkzeug: * Running on http://0.0.0.0:4996/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 11:26:25] "[37mPOST /domath/123 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:4996/ (Press CTRL+C to quit)
+ERROR:app:Exception on /domath/123 [POST]
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:/Projects/ACC/mpcconfconpython/module2/app.py", line 31, in post
+    out = jsonify({"retvalue": retarray[0], "runid": runid, "executedonon":datetime.now()})
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\amgowda\Miniconda3\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\amgowda\Miniconda3\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "C:\Users\amgowda\Miniconda3\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 11:29:02] "[35m[1mPOST /domath/123 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:4996/ (Press CTRL+C to quit)
+ERROR:app:Exception on /domath/123 [POST]
+Traceback (most recent call last):
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:/Projects/ACC/mpcconfconpython/module2/app.py", line 31, in post
+    out = jsonify({"retvalue": retarray[0], "runid": runid, "executedonon":datetime.now()})
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "C:\Users\amgowda\Miniconda3\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\amgowda\Miniconda3\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\amgowda\Miniconda3\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\amgowda\Miniconda3\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "C:\Users\amgowda\Miniconda3\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 11:29:36] "[35m[1mPOST /domath/123 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:4996/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2020 11:57:10] "[37mPOST /domath/123 HTTP/1.1[0m" 200 -
